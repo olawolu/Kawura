@@ -174,33 +174,89 @@ h1, h2,h3,h4 {
 .btn-create-now>a{
    color: #1E2B5E !important;
 }
-.click-btn{
-   width:70%;
-   margin:10px auto !important ;
+
+.btn-enroll-now{
+   background-color: #113BEA !important;
+   margin:auto !important ;
+   padding:10px 10px !important;
 }
+.btn-enroll-now>a{
+   color: #ffffff !important;
+}
+
 
 .section-two{
    padding: 60px 100px;  
    height: auto;
    background-color: #F7FAFF;
 }
-.peace{
-   border:1px solid red;
-}
-
 .content-header{
    font-size: 24px;
    line-height: 24px;
    padding-top: 20px;
 }
+.content{
+   margin-top: 40px;
+}
+.content1{
+   padding-bottom: 5px;
+}
 .content-title{
-   padding: 10px 7px;
+   font-size: 26px;
+   font-weight: 600;
 }
 .content-text{
-   padding: 5px 7px;
+   padding: 15px 1px;
+   font-size: 16px;
+}
+.section-three{
+   padding: 60px 70px;  
+   height: auto;
+   background-color: #ffffff;
 }
 
+.section-Three-title{
+   font-size:30px;
+   color: #1E2B5E;
+   line-height: 45px;
+   display: inline-block;
+} 
 
+.section-three-head,.section-three-body{
+   width:90%;
+   margin: auto;
+}
+
+.section-three-body{
+   padding-top: 50px;  
+   padding-bottom: 50px;
+}
+
+#line-three-img{
+   background-image: url(../Images/Vector.png);
+   background-position:left;
+   background-repeat: no-repeat;
+}
+a,.link-text{
+   font-size: 16px !important;
+   color: rgba(30, 43, 94,0.7) !important;
+   text-decoration: none !important;
+   float: right;
+}
+.section-four{
+   padding: 60px 70px;  
+   height: auto;
+   border:1px solid red;
+   background-color: #F7FAFF;
+}
+.top-box{
+   width:60%;
+   height: auto;
+   padding:20px;
+   margin:-80px auto;
+   border-radius:10px;
+   background-color: #1E2B5E;
+}
 
 
 // Small devices (landscape phones, 576px and up)
