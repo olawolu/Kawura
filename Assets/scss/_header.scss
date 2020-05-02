@@ -72,7 +72,7 @@ h1, h2,h3,h4 {
 
 .section-one{
    padding-top: 70px;
-   padding-bottom:30px ;
+   padding-bottom:50px ;
    background-color: #113BEA;
    height: auto; 
 }
@@ -80,7 +80,7 @@ h1, h2,h3,h4 {
 .section-head{
    width:40%;
    margin: auto;
-   // border:1px solid red;
+
 }
 .section-title{
    font-size:30px;
@@ -91,7 +91,6 @@ h1, h2,h3,h4 {
    background-image: url(../Images/Vector.png);
    background-position:right;
    background-repeat: no-repeat;
-   padding-left: 50px;
 }
 
 .section-content{
@@ -229,13 +228,22 @@ h1, h2,h3,h4 {
 
 .section-three-body{
    padding-top: 50px;  
-   padding-bottom: 50px;
+   padding-bottom: 100px;
 }
 
 #line-three-img{
-   background-image: url(../Images/Vector.png);
+   background-image: url(../Images/Vector2.png);
    background-position:left;
    background-repeat: no-repeat;
+}
+#line-four-img{
+    width: 40%;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: 20px;
+    background-image: url(../Images/Vector3.png);
+    background-position: left;
+    background-repeat: no-repeat;
 }
 a,.link-text{
    font-size: 16px !important;
@@ -245,18 +253,41 @@ a,.link-text{
 }
 .section-four{
    padding: 60px 70px;  
-   height: auto;
-   border:1px solid red;
+   height: 500px;
    background-color: #F7FAFF;
 }
-.top-box{
-   width:60%;
-   height: auto;
-   padding:20px;
-   margin:-80px auto;
-   border-radius:10px;
-   background-color: #1E2B5E;
+.section-head-box{
+   width:50%;
+   margin: auto;
 }
+.top-box{
+   width:90%;
+   height:auto;
+   padding:50px 20px;
+   margin:-130px auto;
+   border-radius:10px;
+   background-color: #113AEA;
+}
+.topbox-content{
+   color:#ffffff;
+   padding:25px;
+}
+.btn-getstart{
+   background-color:#ffffff  !important;
+   margin:auto !important ;
+   padding:12px 12px !important;
+}
+.btn-getstart>a{
+   color: #113BEA !important;
+}
+
+.card{
+   width: 18rem !important; 
+   height: 300px !important;
+   background-color: #BFCDDA !important;
+
+}
+
 
 
 // Small devices (landscape phones, 576px and up)
