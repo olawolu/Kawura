@@ -86,6 +86,7 @@ h1, h2,h3,h4 {
    font-size:30px;
    color: #FFFFFF;
    line-height: 45px;
+   text-align: center;
 }
 #line-img{
    background-image: url(../Images/Vector.png);
@@ -326,6 +327,7 @@ a,.link-text{
      display: flex;
   }
   .logo-box{
+   width:95% !important;
    margin: auto;
   }
   .btn-create > a,.btn-enroll> a{
@@ -335,11 +337,12 @@ a,.link-text{
      padding-bottom:5px;
   }
   .section-head{
-     width:100%;
+     width:82%;
   }
   .section-title{
      font-size: 27px;
      line-height: 32px;
+     text-align: left;
   }
   .class-box{
    margin: 10px auto;
@@ -357,7 +360,7 @@ a,.link-text{
    padding: 40px 20px;
   }
   .section-three{
-   padding: 40px 20px;
+   padding: 40px 10px;
   }
   .card{
    width: 90% !important;
@@ -367,7 +370,7 @@ a,.link-text{
    padding: 40px 20px;
   }
   .top-box{
-     width:100%;
+     width:90%;
   }
   a, .link-text{
      float:left
