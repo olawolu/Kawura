@@ -9,7 +9,7 @@ h1, h2, h3, h4 {
 .custom-nav {
   width: 90%;
   margin: auto;
-  padding-top: 20px !important; }
+  padding-top: 30px !important; }
 
 .logo-img {
   width: 124px;
@@ -63,10 +63,10 @@ h1, h2, h3, h4 {
   color: #1E2B5E !important; }
 
 .section-one {
+  height: auto;
   padding-top: 70px;
   padding-bottom: 50px;
-  background-color: #113BEA;
-  height: auto; }
+  background-color: #113BEA; }
 
 .section-head {
   width: 40%;
@@ -262,5 +262,67 @@ a, .link-text {
   width: 18rem !important;
   height: 300px !important;
   background-color: #BFCDDA !important; }
+
+@media (max-width: 575.98px) {
+  .header {
+    height: auto;
+    padding-bottom: 30px; }
+
+  .header-layout {
+    width: 90%;
+    margin: 0px; }
+
+  .row-space {
+    padding: auto !important; }
+
+  .header-btn {
+    display: flex; }
+
+  .logo-box {
+    margin: auto; }
+
+  .btn-create > a, .btn-enroll > a {
+    font-size: 13px !important; }
+
+  .header-sub-text {
+    padding-bottom: 5px; }
+
+  .section-head {
+    width: 100%; }
+
+  .section-title {
+    font-size: 27px;
+    line-height: 32px; }
+
+  .class-box {
+    margin: 10px auto; }
+
+  .box-text {
+    font-size: 16px; }
+
+  .stage-chart {
+    margin: 10px auto; }
+
+  .section-one {
+    height: 900px; }
+
+  .section-two {
+    padding: 40px 20px; }
+
+  .section-three {
+    padding: 40px 20px; }
+
+  .card {
+    width: 16rem !important;
+    margin-bottom: 20px; }
+
+  .section-four {
+    padding: 40px 20px; }
+
+  .top-box {
+    width: 100%; }
+
+  a, .link-text {
+    float: left; } }
 
 /*# sourceMappingURL=style.css.map */
