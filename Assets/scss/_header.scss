@@ -297,7 +297,14 @@ a,.link-text{
 // @media (min-width: 768px) { ... }
 
 // Large devices (desktops, 992px and up)
-// @media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+   .navbar-toggler{
+      display: none;
+   }
+   .nav-btn{
+      display: inline;
+   }
+}
 
 // Extra large devices (large desktops, 1200px and up)
 // @media (min-width: 1200px) { ... }
@@ -363,8 +370,29 @@ a,.link-text{
      width:100%;
   }
   a, .link-text{
-     float:left;
+     float:left
   }
+  .custom-nav{
+     width:100%;
+  }
+  .nav-btn{
+     display: none;
+  }
+  .navbar-toggler{
+   display:list-item;
+   padding: 0px !important;
+   }
+   .navbar-icon{
+      width: 35px;
+      height: 3px;
+      background-color: black;
+      margin: 6px 0;
+   }
+   .nav-item{
+      padding:5px 5px;
+      
+   }
+
   
 }
 
