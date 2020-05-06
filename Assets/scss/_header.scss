@@ -58,9 +58,8 @@ h1, h2,h3,h4 {
      font-style: normal;
  }
 .header{
-   height:650px;
+   height:670px;
    background-color:#ffffff ;
-   // border:1px solid red;
 }
 .custom-nav{
    width:90%; 
@@ -74,6 +73,8 @@ h1, h2,h3,h4 {
 .btn-sign-in{
    border: 1px solid #1E2B5E !important; 
    margin-right: 20px !important;
+   border-radius: 4px !important;
+   padding: 10px 23px !important;
 }
 .btn-sign-in > a{
    color: #1E2B5E !important;
@@ -84,6 +85,8 @@ h1, h2,h3,h4 {
 }
 .btn-sign-up{
    background-color: #113BEA !important;
+   border-radius: 4px !important;
+   padding: 10px 23px !important;
 }
 .btn-sign-up > a{
    color: #FFFFFF !important;
@@ -105,6 +108,10 @@ h1, h2,h3,h4 {
    font-family: Gilroy-Bold;
    font-size:45px;
    line-height:50px;
+   color:#1E2B5E;
+}
+.header-color{
+   color: #113BEA;
 }
 
 .header-sub-text{
@@ -112,11 +119,12 @@ h1, h2,h3,h4 {
    font-size: 16px;
    line-height: 22px;
    padding-bottom: 35px;
+   color: rgba(30, 43, 94, 0.7);
 }
 .btn-create{
    background-color: #113BEA !important;
-   margin-right: 20px !important;
-   padding:10px 10px !important;
+   margin-right: 32px !important;
+   padding:16px 33px !important;
 }
 .btn-create > a{
    color:#FFFFFF !important;
@@ -127,7 +135,7 @@ h1, h2,h3,h4 {
 
 .btn-enroll{
    border: 1px solid #1E2B5E !important; 
-   padding:9px 10px !important;  
+   padding:16px 33px !important;  
 }
 .btn-enroll > a{
    color: #1E2B5E !important;
@@ -147,7 +155,7 @@ h1, h2,h3,h4 {
 
 .section-one{
    height: auto; 
-   padding-top: 70px;
+   padding-top: 30px;
    padding-bottom:50px ;
    background-color: #113BEA;
 }
@@ -155,7 +163,6 @@ h1, h2,h3,h4 {
 .section-head{
    width:50%;
    margin: auto;
-
 }
 .section-title{
    font-family: Gilroy-Bold;
@@ -172,12 +179,11 @@ h1, h2,h3,h4 {
 
 .section-content{
    width:80%;
-   height: 400px;
-   margin: 50px auto !important;
-   // border:1px solid red;
+   height:320px;
+   margin:10px auto !important;
 }
 .class-box{
-   height: 70px !important;
+   height: 60px !important;
    padding:10px !important;
    background-color: #fff;
    border-radius: 67px;
@@ -189,12 +195,11 @@ h1, h2,h3,h4 {
    font-size: 14px;
    line-height: 22px;
    text-align: center;
-   padding: 5px !important;
 }
 
 .logo-box{
-   height: 180px !important;
-   padding:10px !important;
+   height: 160px !important;
+   padding:44px 48px !important;
    background-color: #fff;
    border-radius: 15px;
    margin-left: 150px;
@@ -209,18 +214,18 @@ h1, h2,h3,h4 {
    z-index: 1;
 }
 .stage-chart{
-   height: 350px !important;
+   height: 300px !important;
    background-color: #fff;
+   padding: 10px !important;
    border-radius: 18.1px;
    margin-left: 150px;
-   margin-top: 20px;
-   padding: 10px !important;
+   margin-top: 10px;
 }
 .bar{
    width:70%;
    height: 40px;
    border-radius:5px ;
-   margin:20px auto !important;
+   margin:15px auto !important;
    text-align: center;
 }
 .stage-text{
@@ -250,7 +255,7 @@ h1, h2,h3,h4 {
 .btn-create-now{
    background-color: #FFFFFF !important;
    margin:auto !important ;
-   padding:10px 10px !important;
+   padding:16px 33px !important;
 }
 .btn-create-now>a{
    font-family: Gilroy-Medium;
@@ -261,8 +266,9 @@ h1, h2,h3,h4 {
 
 .btn-enroll-now{
    background-color: #113BEA !important;
-   margin:auto !important ;
-   padding:10px 10px !important;
+   margin:20px auto !important ;
+   padding:16px 33px !important;
+   border-radius: 4px !important;
 }
 .btn-enroll-now>a{
    color: #ffffff !important;
@@ -273,7 +279,7 @@ h1, h2,h3,h4 {
 
 
 .section-two{
-   padding: 60px 100px;  
+   padding: 40px 100px;  
    height: auto;
    background-color: #F7FAFF;
 }
@@ -285,10 +291,10 @@ h1, h2,h3,h4 {
    padding-top: 20px;
 }
 .content{
-   margin-top: 40px;
+   margin-top: 30px;
 }
 .content1{
-   padding-bottom:5px;
+   padding-bottom:10px;
 }
 .content-title{
    font-family: Gilroy-Bold;
@@ -297,14 +303,13 @@ h1, h2,h3,h4 {
    color: #1E2B5E;
 }
 .content-text{
-   padding: 15px 1px;
    font-family: Gilroy-Regular;
    font-size: 16px;
    line-height: 25px;
    color: #1E2B5E;
 }
 .section-three{
-   padding: 60px 70px;  
+   padding: 40px 80px;  
    height: auto;
    background-color: #ffffff;
 }
@@ -381,7 +386,7 @@ h1, h2,h3,h4 {
 .btn-getstart{
    background-color:#ffffff  !important;
    margin:auto !important ;
-   padding:12px 12px !important;
+   padding:16px 33px !important;
 }
 .btn-getstart>a{  
    font-family: Gilroy-Medium;
