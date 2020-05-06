@@ -44,7 +44,7 @@ h1, h2, h3, h4 {
   font-style: normal; }
 .header {
   height: 650px;
-  background-color: #E5E5E5; }
+  background-color: #ffffff; }
 
 .custom-nav {
   width: 90%;
@@ -59,7 +59,7 @@ h1, h2, h3, h4 {
   border: 1px solid #1E2B5E !important;
   margin-right: 20px !important; }
 
-.btn-sign-in, a {
+.btn-sign-in > a {
   color: #1E2B5E !important;
   text-decoration-color: #1E2B5E !important;
   font-family: Gilroy-Medium;
@@ -67,10 +67,9 @@ h1, h2, h3, h4 {
   line-height: 22px; }
 
 .btn-sign-up {
-  background-color: #113BEA !important;
-  color: #FFFFFF !important; }
+  background-color: #113BEA !important; }
 
-.btn-sign-up, a {
+.btn-sign-up > a {
   color: #FFFFFF !important;
   text-decoration-color: #1E2B5E !important;
   font-family: Gilroy-Medium;
@@ -115,6 +114,13 @@ h1, h2, h3, h4 {
   font-family: Gilroy-Medium;
   font-size: 15px;
   line-height: 22px; }
+
+.logo-box-header {
+  height: 130px !important;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  margin: 100px auto;
+  z-index: 1; }
 
 .section-one {
   height: auto;
@@ -303,7 +309,7 @@ h1, h2, h3, h4 {
   background-position: left;
   background-repeat: no-repeat; }
 
-a, .link-text {
+.link-text {
   font-family: Gilroy-Medium;
   font-size: 15px !important;
   line-height: 22px;
