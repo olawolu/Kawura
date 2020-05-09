@@ -477,7 +477,7 @@ h1, h2,h3,h4 {
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
    .header{
-      height:auto;
+      height:100vh;
       padding-bottom: 30px;
    }
    .header-layout{
