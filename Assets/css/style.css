@@ -43,7 +43,7 @@ h1, h2, h3, h4 {
   font-weight: 500;
   font-style: normal; }
 .header {
-  height: 670px;
+  height: 100vh;
   background-color: #ffffff; }
 
 .custom-nav {
@@ -79,6 +79,12 @@ h1, h2, h3, h4 {
   font-family: Gilroy-Medium;
   font-size: 14px;
   line-height: 22px; }
+
+.header-img {
+  background-image: url(../Images/header_image\ _illustration.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 .header-layout {
   width: 90%;
@@ -174,8 +180,8 @@ h1, h2, h3, h4 {
 
 .section-one {
   height: auto;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 4em;
+  padding-bottom: 4em;
   background-color: #113BEA; }
 
 .section-head {
@@ -543,7 +549,7 @@ h1, h2, h3, h4 {
   margin: 0 !important; }
 
 .section-sign-up {
-  height: 600px;
+  height: 100vh;
   background-color: #ffffff;
   overflow-x: hidden; }
 
