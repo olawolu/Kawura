@@ -88,7 +88,7 @@ h1, h2, h3, h4 {
 
 .header-layout {
   width: 90%;
-  margin: 100px auto; }
+  margin: 135px auto; }
 
 .row-space {
   padding-left: 27px !important; }
@@ -203,7 +203,7 @@ h1, h2, h3, h4 {
 .section-content {
   width: 80%;
   height: 320px;
-  margin: 10px auto !important; }
+  margin: 20px auto !important; }
 
 .class-box {
   height: 60px !important;
@@ -420,7 +420,7 @@ h1, h2, h3, h4 {
     display: inline; } }
 @media (max-width: 575.98px) {
   .header {
-    height: auto;
+    height: 100vh;
     padding-bottom: 30px; }
 
   .header-layout {
