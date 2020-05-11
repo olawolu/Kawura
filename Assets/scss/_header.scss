@@ -331,7 +331,8 @@ h1, h2,h3,h4 {
 
 
 .section-two{
-   padding: 40px 100px;  
+   padding-top: 4em;
+   padding-bottom:4em; 
    height: auto;
    background-color: #F7FAFF;
 }
@@ -361,7 +362,9 @@ h1, h2,h3,h4 {
    color: #1E2B5E;
 }
 .section-three{
-   padding: 40px 80px;  
+   // padding: 40px 80px;  
+   padding-top: 4em;
+   padding-bottom:4em;
    height: auto;
    background-color: #ffffff;
 }
