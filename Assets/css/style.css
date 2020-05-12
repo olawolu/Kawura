@@ -2,6 +2,9 @@ h1, h2, h3, h4 {
   padding: 0 !important;
   margin: 0 !important; }
 
+body {
+  overflow-x: hidden; }
+
 @font-face {
   font-family: 'Gilroy-Bold';
   src: url("../fonts/Gilroy-Bold.eot");
