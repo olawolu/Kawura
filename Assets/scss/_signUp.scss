@@ -29,15 +29,20 @@ h1, h2,h3,h4 {
 .form{
    margin-top: 70px;
 }
-input[type="text"],input[type="password"],
-select.form-control {
+input[type="email"],input[type="text"],input[type="password"], select.form-control {
   width: 85%;
   background: transparent;
   border: none;
   border-bottom: 0.7px solid rgba(30, 43, 94, 0.7);
   box-shadow: none;
   border-radius: 0;
-  margin:45px 60px;
+  margin:45px 0px 0px 60px !important;
+}
+.password{
+   margin-bottom: 60px !important;
+}
+.invalid-feedback{
+   margin-left: 65px;
 }
 
 .btn-signup{
@@ -61,6 +66,11 @@ select.form-control {
    font-size: 13px !important;
    line-height: 16px !important;
    color: rgba(30, 43, 94, 0.6) !important;
+   transition: none !important;
+}
+.form-control:focus{
+   box-shadow: none !important;
+   border-color:#113BEA !important ;
 }
 .btn-text{
    font-family: Gilroy-Medium;
@@ -119,6 +129,67 @@ select.form-control {
 .fa-facebook-square{
    color:#395185;
 }
+
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+   .sign-up{
+      padding:20px 30px;
+   }
+   .signup-logo{
+      width:250px;
+      height:70px;
+      margin:30px auto;
+   }
+   .form-head{
+      margin-top: 30px !important;
+   }
+   input[type="email"], 
+   input[type="text"], 
+   input[type="password"], 
+   select.form-control{
+      margin: 45px 0px 0px 10px !important;
+   }
+   .btn-signup {
+      margin:10px 20px;
+   }
+   .password {
+      margin-bottom: 30px !important;
+  }
+   .text-option {
+      margin-left: 0px;
+   }
+   .btn-google, .btn-facebook {
+      margin-left: 0px;
+      margin-top: 20px;
+   } 
+   .text-option > p{
+      padding-bottom: 5px;
+   }
+}
+  
+// Small devices (landscape phones, less than 768px)
+// @media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+// @media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+// @media (max-width: 1199.98px) { ... }
 
 
  

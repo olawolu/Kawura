@@ -1,0 +1,93 @@
+h1, h2,h3,h4 {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+body{
+   overflow-x: hidden;
+}
+.custom-nav{
+   width:90%; 
+   margin:auto;
+   padding-top: 30px !important;
+}
+.course-logo{
+   width:150px;
+   height:45px;
+}
+.course-header-layout{
+   width: 85%;
+   margin: 135px auto;
+}
+.course-header{
+   color:#fff; 
+}
+.course-text{
+   color:#fff; 
+}
+.header{
+   background-color:#113BEA ;
+}
+.course-section-one{
+   .title-bar{
+      width:100%;
+      height: 60px;
+      background-color: #fff;
+   }
+   .course-card{
+     width:100%;
+     background-color:#F8FCFF;
+     padding-top:60px;
+     padding-bottom:60px;
+   }
+}
+.bar-content{
+   margin: 30px auto 20px;
+   width:85% 
+}
+.title-link{
+   color:#000;
+   padding-left: 20px; 
+   font-family: Gilroy-Medium !important;
+   font-size: 15px !important;
+   line-height: 22px !important;
+
+}
+.title-link:hover{
+   color:#1837E6;
+   text-decoration: underline;
+
+}
+.card-section{
+   width:90%;
+   margin:auto !important;
+}
+.card-section2{
+   width:90%;
+   margin: 50px auto !important;
+}
+
+.course{
+   width: 17rem !important; 
+   height: 400px !important;
+   border:none !important;
+   background-color: #BFCDDA !important;
+}
+.card-top{
+   height:250px;
+}
+.card-title{
+   font-size: 16px;
+}
+.card-body{
+   height: 150px;
+   background-color:#fff !important ;
+}
+.img-container{
+   float: left;
+   margin-top: 30px;
+}
+.text{
+   float:right;
+   margin-top: 42px;
+   color:#6FBA2E;
+}
