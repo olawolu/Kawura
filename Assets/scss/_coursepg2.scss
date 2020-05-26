@@ -82,9 +82,6 @@ body{
    padding-top: 80px;
    padding-bottom: 50px;
 }
-.outline-card{
-   border-radius: 5px;
-}
 .outline{
    border: 1px solid #E6EBF1;
    box-sizing: border-box;
@@ -98,6 +95,10 @@ body{
 }
 .enroll-card{
    background: #113BEA;
+   border-radius: 5px 0px 0px 5px  !important;
+}
+.certify-card{
+   border-radius: 0px 5px 5px 0px  !important;
 }
 .enroll-color{
    color:#ffff !important;
@@ -165,9 +166,14 @@ body{
 }
 .btn-danger, .btn-warning, .btn-success{
    border-radius:20px !important ;
+   font-family: Gilroy-Bold;
+   font-size: 12px;
+   line-height: 17px;
+   color: rgba(255, 255, 255, 0.7) !important;
+
 }
 .about-card2{
-   width:70%;
+   width:75%;
    font-family: Gilroy-Regular;
    font-size: 15px;
    line-height: 19px;
