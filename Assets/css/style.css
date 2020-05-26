@@ -745,7 +745,7 @@ body {
   font-size: 17px;
   line-height: 25px; }
 
-.header {
+.header1 {
   height: 90vh;
   background-color: #113BEA; }
 
@@ -852,6 +852,204 @@ body {
 
 .redirect {
   padding-left: 30px;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px; }
+
+h1, h2, h3, h4 {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+body {
+  overflow-x: hidden; }
+
+.custom-nav-course2 {
+  width: 100%;
+  height: 70px;
+  padding-top: 20px !important;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05); }
+
+.course-logo2 {
+  width: 124px;
+  height: 31px;
+  margin-left: 90px; }
+
+.header2 {
+  height: 60vh;
+  background-color: #113BEA; }
+
+.course2-header-layout {
+  width: 85%;
+  margin: auto;
+  padding-top: 100px; }
+
+.student-name {
+  padding-left: 15px;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF; }
+
+.header2-title {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF; }
+
+.course-nos1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 15px auto;
+  background-image: url(../Images/10.png);
+  background-position: center;
+  background-size: initial;
+  background-repeat: no-repeat; }
+
+.course-nos2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 15px auto;
+  background-image: url(../Images/08.png);
+  background-position: center;
+  background-size: initial;
+  background-repeat: no-repeat; }
+
+.content-container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #F7FBFF; }
+
+.search-box {
+  width: 85%;
+  height: 90px;
+  margin: auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  display: flex; }
+
+.outline-container {
+  width: 70%;
+  height: 90px;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px; }
+
+.outline-card {
+  border-radius: 5px; }
+
+.outline {
+  border: 1px solid #E6EBF1;
+  box-sizing: border-box; }
+
+.outline-text {
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1E2B5E;
+  padding-top: 12px; }
+
+.enroll-card {
+  background: #113BEA; }
+
+.enroll-color {
+  color: #ffff !important; }
+
+.about-text {
+  width: 70%;
+  height: 40px;
+  margin-top: 33px;
+  padding-left: 30px; }
+
+.button {
+  width: 30%;
+  margin-top: 25px;
+  padding-left: 120px; }
+
+.about-student {
+  font-family: Gilroy-Bold;
+  font-size: 17px;
+  line-height: 22px;
+  color: #1E2B5E; }
+
+.card-layout {
+  width: 85%;
+  height: auto;
+  margin: auto; }
+
+.card-content {
+  height: 250px;
+  margin-top: 70px;
+  border-radius: 5px; }
+
+.top {
+  display: flex; }
+
+.card-title2 {
+  width: 85%;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.top-button {
+  width: 15%; }
+
+.card-title-day {
+  width: 77%;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.top-button-day {
+  width: 23%; }
+
+.card-title-change {
+  width: 73%;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.top-button-change {
+  width: 27%; }
+
+.btn-danger, .btn-warning, .btn-success {
+  border-radius: 20px !important; }
+
+.about-card2 {
+  width: 70%;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 19px;
+  color: rgba(30, 43, 94, 0.7);
+  margin-top: 15px; }
+
+.bottom {
+  margin-top: 35px;
+  display: flex; }
+
+.bottom-img {
+  width: 60%; }
+
+.link1 {
+  width: 20%;
+  margin: auto; }
+
+.link2 {
+  width: 20%;
+  margin: auto; }
+
+.btn-more {
   text-decoration: underline;
   text-underline-position: under;
   color: #000;
