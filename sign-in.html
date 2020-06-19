@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Kawura sign-up-page</title>
+   <title>Kawura sign-in-page</title>
    <link rel="stylesheet" href="./Assets/css/style.css">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <script src="https://kit.fontawesome.com/9df45a9d7e.js" crossorigin="anonymous"></script>
@@ -22,17 +22,17 @@
             <form action="post" @submit="verifyForm" class="form">
                <div class="input-icons">
                   <i class="far fa-envelope icon"></i>
-                  <input type="text" class="form-control" placeholder="Email Address" id="email" v-model="email" id="email">
+                  <input type="text" class="form-control" placeholder="Email Address" id="email"  name="email">
                   <!-- <p v-for="error in errors">{{error}}</p> -->
                </div>
                <div class="input-icons password">
                   <i class="fas fa-lock icon"></i>
-                  <input type="password" class="form-control" placeholder="Password">
+                  <input type="password" class="form-control" placeholder="Password" name="password">
                </div>
                <button type="submit" class="btn btn-signin">Sign In</button>
             </form>
             <p class="text-center text-account">Already have an account? 
-               <span><a href="sign-up.html" > Sign-Up</a> </span></p>
+               <span><a href="sign-up.html">Sign-Up</a> </span></p>
             <div class="text-option ">
                <div class="right-line"></div>
                <p class="text-center"> OR </p>
@@ -48,10 +48,13 @@
                  <span class="btn-text"> Sign Up with Facebook</span>
                </button>
             </div>
+            <div class="result-display" style="border:1px solid red; height:100px;">
+
+            </div>
          </div>
    </div>
 
     <!-- javascript base -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <!-- <script src="./Assets/script/customVue.js"></script> -->
+    <script src="./Assets/script/custom.js"></script>
 </body>
