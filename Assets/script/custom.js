@@ -22,3 +22,13 @@ const handleFormSubmit = event =>{
 
 const form = document.getElementsByClassName('form')[0];
 form.addEventListener('submit',handleFormSubmit);
+
+const email = document.getElementsById('mail');
+
+email.addEventListener("input", function(event){
+   if(email.validity.typeMismatch){
+      email.setCustomValidity("i Expecting an e-mail address!");
+   }else{
+      email.setCustomValidity("");
+   }
+})

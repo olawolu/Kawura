@@ -138,42 +138,6 @@ body {
   height: 200px;
   margin: 70px auto; }
 
-.round-cont img {
-  max-width: 100%;
-  position: absolute; }
-
-.round-cont img:nth-child(1) {
-  left: 190px;
-  top: 30px; }
-
-.round-cont img:nth-child(2) {
-  left: 290px;
-  top: 10px; }
-
-.round-cont img:nth-child(3) {
-  left: 380px;
-  top: 30px; }
-
-.round-cont img:nth-child(4) {
-  left: 140px;
-  top: 140px; }
-
-.round-cont img:nth-child(5) {
-  left: 410px;
-  top: 140px; }
-
-.round-cont img:nth-child(6) {
-  left: 190px;
-  top: 250px; }
-
-.round-cont img:nth-child(7) {
-  left: 290px;
-  top: 280px; }
-
-.round-cont img:nth-child(8) {
-  left: 380px;
-  top: 250px; }
-
 .logo-box-header {
   width: 100px !important;
   height: 100px !important;
@@ -425,7 +389,7 @@ body {
     display: inline; } }
 @media (max-width: 575.98px) {
   .header {
-    height: 100vh;
+    height: auto;
     padding-bottom: 30px; }
 
   .header-layout {
@@ -545,7 +509,9 @@ input[type="email"], input[type="text"], input[type="password"], select.form-con
   border: none;
   border-bottom: 0.7px solid rgba(30, 43, 94, 0.7);
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 0; }
+
+.sign-input {
   margin: 45px 0px 0px 60px !important; }
 
 .password {
@@ -649,10 +615,7 @@ input[type="email"], input[type="text"], input[type="password"], select.form-con
   .form-head {
     margin-top: 30px !important; }
 
-  input[type="email"],
-  input[type="text"],
-  input[type="password"],
-  select.form-control {
+  .sign-input {
     margin: 45px 0px 0px 10px !important; }
 
   .btn-signup {
@@ -697,6 +660,9 @@ h1, h2, h3, h4 {
   line-height: 22px !important;
   padding-top: 14px !important;
   padding-bottom: 14px !important; }
+
+.disable {
+  display: none; }
 
 @media (max-width: 575.98px) {
   .sign-in {
@@ -1275,5 +1241,39 @@ body {
   background-color: #E5E5E5;
   border: 1px solid #8E95AE;
   color: #1E2B5E; }
+
+.Prelaunch-btn {
+  display: flex; }
+
+.prereg-email {
+  width: 65% !important;
+  height: 54px;
+  border: 1px solid #1E2B5E !important;
+  box-sizing: border-box;
+  border-radius: 4px !important;
+  margin: 0px 15px 0px 0px !important;
+  padding: .375rem .75rem; }
+
+.btn-preReg {
+  width: 25% !important;
+  height: 54px;
+  background-color: #113BEA !important;
+  border-radius: 4px !important;
+  vertical-align: initial !important;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF !important; }
+
+@media (max-width: 575.98px) {
+  .Prelaunch-btn {
+    display: block; }
+
+  .prereg-email {
+    width: 100% !important;
+    margin: 20px 0px 20px 0px !important; }
+
+  .btn-preReg {
+    width: 100% !important; } }
 
 /*# sourceMappingURL=style.css.map */

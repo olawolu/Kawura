@@ -22,12 +22,13 @@
             <form action="post" @submit="verifyForm" class="form">
                <div class="input-icons">
                   <i class="far fa-envelope icon"></i>
-                  <input type="text" class="form-control" placeholder="Email Address" id="email"  name="email">
-                  <!-- <p v-for="error in errors">{{error}}</p> -->
+                  <input type="text" class="form-control sign-input" placeholder="Email Address" id="mail"  name="email">
+                  <p class="disable">A valid email address is required.</p>
                </div>
                <div class="input-icons password">
                   <i class="fas fa-lock icon"></i>
-                  <input type="password" class="form-control" placeholder="Password" name="password">
+                  <input type="password" class="form-control sign-input" placeholder="Password" name="password">
+                  <p class="disable">This field is required.</p>
                </div>
                <button type="submit" class="btn btn-signin">Sign In</button>
             </form>
