@@ -158,46 +158,6 @@ body{
    margin:70px auto;
  }
  
- .round-cont img {
-   max-width:100%;
-   position:absolute;
- }
- 
- .round-cont img:nth-child(1){
-   left:190px;
-   top:30px;
- }
- 
- .round-cont img:nth-child(2){
-   left:290px;
-   top:10px;
- }
- 
- .round-cont img:nth-child(3){
-   left:380px;
-   top:30px;
- }
- .round-cont img:nth-child(4){
-   left:140px;
-   top:140px;
- }
- .round-cont img:nth-child(5){
-   left:410px;
-   top:140px;
- }
- .round-cont img:nth-child(6){
-   left:190px;
-   top:250px;
- }
- .round-cont img:nth-child(7){
-   left:290px;
-   top:280px;
- }
- .round-cont img:nth-child(8){
-   left:380px;
-   top:250px;
- }
- 
 
 .logo-box-header{
    width:100px !important;
@@ -483,7 +443,7 @@ body{
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
    .header{
-      height:100vh;
+      height:auto;
       padding-bottom: 30px;
    }
    .header-layout{

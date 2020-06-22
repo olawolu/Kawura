@@ -36,7 +36,9 @@ input[type="email"],input[type="text"],input[type="password"], select.form-contr
   border-bottom: 0.7px solid rgba(30, 43, 94, 0.7);
   box-shadow: none;
   border-radius: 0;
-  margin:45px 0px 0px 60px !important;
+}
+.sign-input{
+   margin:45px 0px 0px 60px !important;
 }
 .password{
    margin-bottom: 60px !important;
@@ -44,7 +46,6 @@ input[type="email"],input[type="text"],input[type="password"], select.form-contr
 .invalid-feedback{
    margin-left: 65px;
 }
-
 .btn-signup{
    margin:10px 60px;
    width:85%;
@@ -53,6 +54,8 @@ input[type="email"],input[type="text"],input[type="password"], select.form-contr
    font-family: Gilroy-Medium !important;
    font-size: 15px !important;
    line-height: 22px !important;
+   padding-top: 14px !important;
+   padding-bottom: 14px !important;
 }
 .btn-google,.btn-facebook{
    border: 0.5px solid #1E2B5E !important;
@@ -158,10 +161,7 @@ input[type="email"],input[type="text"],input[type="password"], select.form-contr
    .form-head{
       margin-top: 30px !important;
    }
-   input[type="email"], 
-   input[type="text"], 
-   input[type="password"], 
-   select.form-control{
+  .sign-input{
       margin: 45px 0px 0px 10px !important;
    }
    .btn-signup {
